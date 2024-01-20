@@ -22,33 +22,40 @@
 </head>
 
 <body>
-    <header class=" sm:w-[415px] lg:w-[1440px] h-[715px] m-auto bg-[#FFFBF0]">
+    <header class=" w-[415px] m-auto md:w-[1440px] h-[715px]  bg-[#FFFBF0]">
         <nav class="flex items-center justify-between pt-[45px]">
             <div>
-                <img class="h-[40px] pl-[135px]" src="./icons/logo.png" alt="">
+                <img class=" sm:h-[26px] sm:pl-[17px] md:h-[40px] md:pl-[135px]" src="./icons/logo.png" alt="">
+                
             </div>
+            <img class=" sm:pr-[17px] pl-[120px] md:hidden" src="./icons/menu-2-outline 1.png" alt="">
             <div>
-                <ul class=" sm:hidden lg:flex gap-[57px] pr-[137px] roboto font-medium">
+                <ul class=" hidden md:flex gap-[57px] pr-[137px] roboto font-medium">
                     <li>Home</li>
                     <li>Product</li>
                     <li>About us</li>
                     <li>Contact us</li>
                 </ul>
+                
             </div>
         </nav>
-        <section class="flex items-center justify-between pt-[19px]">
-            <div class="pl-[135px]">
-                <h1 class="bebas font-normal text-[80px] w-[416px] pb-[4px]"><span class="text-[#FABE4C] ">Be the Penguins</span>
+        <section class=" md:flex md:items-center justify-between pt-[19px]">
+            <div class="pl-[17px] md:pl-[135px]">
+                <h1 class="bebas font-normal text-[60px] md:text-[80px] w-[312px] md:w-[416px] pb-[4px]"><span class="text-[#FABE4C] ">Be the Penguins</span>
                     of Winter</h1>
                 <p class="roboto font-normal text-[16px] text-[#3E3E3E;] w-[357px] pb-[8px]">Lorem Ipsum is simply dummy text of the
                     printing
                     and typesetting industry.</p>
-                <button class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] flex py-[18px] px-[33px] roboto text-white font-medium text-[16px]">
+                <button class=" rounded-[10px] bg-gradient-to-r from-[#A4BC46] to-[#85A019] flex py-[18px] px-[33px] roboto text-white font-medium text-[16px]">
                     <img class="w-[24px] h-[24px] pr-[5px]" src="./icons/shopping-cart 1.png" alt="">
                     BUY NOW
                 </button>
             </div>
-            <div class="pr-[185px]">
+
+
+            <!-- width: 361.206px; -->
+<!-- height: 367.786px; -->
+            <div class="w-[362px] h-[367px] md:pr-[185px] md:w-[550px] md:h-[560px]">
                 <img src="./images/model.png" alt="">
             </div>
         </section>
