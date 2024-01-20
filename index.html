@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin Fashion</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <style>
+        .roboto {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .bebas {
+            font-family: 'Bebas Neue', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header class=" sm:w-[415px] lg:w-[1440px] h-[715px] m-auto bg-[#FFFBF0]">
+        <nav class="flex items-center justify-between pt-[45px]">
+            <div>
+                <img class="h-[40px] pl-[135px]" src="./icons/logo.png" alt="">
+            </div>
+            <div>
+                <ul class=" sm:hidden lg:flex gap-[57px] pr-[137px] roboto font-medium">
+                    <li>Home</li>
+                    <li>Product</li>
+                    <li>About us</li>
+                    <li>Contact us</li>
+                </ul>
+            </div>
+        </nav>
+        <section class="flex items-center justify-between pt-[19px]">
+            <div class="pl-[135px]">
+                <h1 class="bebas font-normal text-[80px] w-[416px] pb-[4px]"><span class="text-[#FABE4C] ">Be the Penguins</span>
+                    of Winter</h1>
+                <p class="roboto font-normal text-[16px] text-[#3E3E3E;] w-[357px] pb-[8px]">Lorem Ipsum is simply dummy text of the
+                    printing
+                    and typesetting industry.</p>
+                <button class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] flex py-[18px] px-[33px] roboto text-white font-medium text-[16px]">
+                    <img class="w-[24px] h-[24px] pr-[5px]" src="./icons/shopping-cart 1.png" alt="">
+                    BUY NOW
+                </button>
+            </div>
+            <div class="pr-[185px]">
+                <img src="./images/model.png" alt="">
+            </div>
+        </section>
+    </header>
+</body>
+
+</html>
